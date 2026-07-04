@@ -2,7 +2,9 @@
 
 **Utilities, fixes, and research for the Sonim XP3800 / XP3 platform.**
 
-SonimLab is a community research project focused on extending and improving the Sonim XP3800 experience through documentation, Android investigation, ADB workflows, and lightweight tools.
+SonimLab is a community research project focused on improving the Sonim XP3800 experience through documentation, Android investigation, ADB workflows, and lightweight tools.
+
+The goal is not to turn the XP3800 into a modern smartphone, but to respect its dumbphone design while exposing useful hidden functionality and adding practical improvements.
 
 Current release:
 
@@ -20,11 +22,31 @@ Current release:
 
 ---
 
+## 📱 Device Compatibility
+
+Primary development device:
+
+- Sonim XP3800 (XP3)
+- Non-camera model
+- Android 8.1 Oreo
+- Verizon firmware
+- Visible network
+
+Different carrier variants may behave differently.
+
+Community testing and compatibility reports are welcome.
+
+See:
+
+- [Device Matrix](docs/device-matrix.md)
+
+---
+
 ## 🔧 Current Focus
 
-### 📱 Non-root Device Improvements
+### Non-root Device Improvements
 
-SonimLab currently focuses on solutions that work without modifying the device firmware.
+SonimLab currently focuses on solutions that work without rooting or modifying device firmware.
 
 Research areas include:
 
@@ -39,13 +61,13 @@ Research areas include:
 
 ## 🧰 Current Functions
 
-SonimLab v0.1-alpha includes early device improvements and documented workflows focused on usability and quality-of-life fixes.
+SonimLab v0.1-alpha includes early device improvements focused on usability and quality-of-life fixes.
 
 | Function | Description |
 | --- | --- |
-| 🔋 Battery Monitor | Provides battery health monitoring foundation using Android system battery data |
+| 🔋 Battery Stats | Displays battery level, temperature, voltage, and chemistry information from Android system battery data |
 | 📇 Bluetooth Contact Import Shortcut | Provides quick access to the built-in Bluetooth contact import workflow, especially when using alternative launchers |
-| 🛡️ Warranty Notification | Provides a non-root method to quickly disable persistent Sonim warranty registration notifications |
+| 🛡️ Warranty Notification Shortcut | Provides a non-root method to access notification settings and disable persistent Sonim warranty registration notifications |
 
 All current functions are designed to work without root access.
 
@@ -53,8 +75,23 @@ Future versions will expand these into native SonimLab tools where possible.
 
 ---
 
+## 📚 Documentation
+
+Project documentation:
+
+- [ADB Commands](docs/adb-commands.md)
+- [Device Notes](docs/device-notes-xp3800.md)
+- [Device Matrix](docs/device-matrix.md)
+- [Known Issues](docs/known-issues.md)
+- [Project Notes](docs/project-notes.md)
+- [Roadmap](docs/roadmap-and-parking-lot.md)
+- [Changelog](docs/CHANGELOG.md)
+
+---
+
 ## 📦 v0.1-alpha Includes
 
+- Initial Android application
 - Initial project structure
 - Device research documentation
 - ADB command references
@@ -64,13 +101,18 @@ Future versions will expand these into native SonimLab tools where possible.
 
 ---
 
-## 📞 Device
+## 🔓 Root Research
 
-Primary research device:
+Root-level investigation is planned as a separate research track.
 
-- Sonim XP3800 (XP3)
-- Android 8.1 Oreo
-- Verizon firmware
+Root modifications are experimental and separate from the stable SonimLab baseline.
+
+Future root research may include:
+
+- Hotspot entitlement investigation
+- Carrier restrictions
+- System-level modifications
+- Advanced device control
 
 ---
 
@@ -80,16 +122,8 @@ Primary research device:
 | --- | --- |
 | 🟢 Non-root research | Active |
 | 🟢 ADB workflows | Active |
-| 🟡 Android app development | Planned |
-| 🔴 Root research | Future / Experimental |
-
----
-
-## 🔓 Root Research
-
-Root-level investigation is planned as a separate research track.
-
-Root modifications are experimental and separate from the stable SonimLab baseline.
+| 🟢 Android app development | Active |
+| 🟡 Root research | Future / Experimental |
 
 ---
 
@@ -98,6 +132,8 @@ Root modifications are experimental and separate from the stable SonimLab baseli
 SonimLab is an independent research project.
 
 Device modifications, ADB commands, rooting, flashing firmware, or changing system behavior can carry risk.
+
+Use at your own discretion.
 
 ---
 
