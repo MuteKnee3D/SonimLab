@@ -1,42 +1,108 @@
-# SonimLab
+# 🧪 SonimLab
 
-SonimLab is a lightweight Android utility/workbench for exploring, customizing, and extending the Sonim XP3800.
+**Utilities, fixes, and research for the Sonim XP3800 / XP3 platform.**
 
-The project emphasizes:
+SonimLab is a community research project focused on extending and improving the Sonim XP3800 experience through documentation, Android investigation, ADB workflows, and lightweight tools.
 
-- practical XP3800 tools
-- transparent behavior
-- reversible changes where possible
-- low-distraction device use
-- readable code and documentation
+Current release:
 
-## Current status
+# 🚀 v0.1-alpha — Foundation Release
 
-Early development / workbench phase.
+---
 
-## Target device
+## 🎯 Goals
 
-- Sonim XP3800
+- Improve usability of the Sonim XP3800
+- Document hidden Android capabilities
+- Restore or expose useful device functions
+- Provide repeatable fixes and workflows
+- Preserve research findings for other owners
+
+---
+
+## 🔧 Current Focus
+
+### 📱 Non-root Device Improvements
+
+SonimLab currently focuses on solutions that work without modifying the device firmware.
+
+Research areas include:
+
+- Hidden Android activities
+- ADB-accessible settings
+- Hardware key behavior
+- System configuration discovery
+- Carrier / device management behavior
+- Quality-of-life improvements
+
+---
+
+## 🧰 Current Functions
+
+SonimLab v0.1-alpha includes early device improvements and documented workflows focused on usability and quality-of-life fixes.
+
+| Function | Description |
+| --- | --- |
+| 🔋 Battery Monitor | Provides battery health monitoring foundation using Android system battery data |
+| 📇 Bluetooth Contact Import Shortcut | Provides quick access to the built-in Bluetooth contact import workflow, especially when using alternative launchers |
+| 🛡️ Warranty Notification | Provides a non-root method to quickly disable persistent Sonim warranty registration notifications |
+
+All current functions are designed to work without root access.
+
+Future versions will expand these into native SonimLab tools where possible.
+
+---
+
+## 📦 v0.1-alpha Includes
+
+- Initial project structure
+- Device research documentation
+- ADB command references
+- Known issues tracking
+- Development roadmap
+- Version history
+
+---
+
+## 📞 Device
+
+Primary research device:
+
+- Sonim XP3800 (XP3)
+- Android 8.1 Oreo
 - Verizon firmware
-- Android 8.1.0 / SDK 27
 
-## Current milestone
+---
 
-Milestone 1: basic launcher utility screen.
+## 📊 Project Status
 
-Planned near-term functions:
+| Area | Status |
+| --- | --- |
+| 🟢 Non-root research | Active |
+| 🟢 ADB workflows | Active |
+| 🟡 Android app development | Planned |
+| 🔴 Root research | Future / Experimental |
 
-- Launch notification screen
-- Explore quick settings access
-- Document XP3800-specific ADB behaviors
-- Begin Dialer Smart Search investigation
+---
 
-## Repository layout
+## 🔓 Root Research
 
-```text
-SonimLab/
-├─ app/                 Android app source/project files
-├─ docs/                Project notes, XP3800 knowledge base, changelog
-├─ research/            Focused investigations and reverse-engineering notes
-└─ assets/screenshots/  Screenshots and visual references
-```
+Root-level investigation is planned as a separate research track.
+
+Root modifications are experimental and separate from the stable SonimLab baseline.
+
+---
+
+## ⚠️ Disclaimer
+
+SonimLab is an independent research project.
+
+Device modifications, ADB commands, rooting, flashing firmware, or changing system behavior can carry risk.
+
+---
+
+## 🏷️ Version
+
+Current milestone:
+
+`v0.1-alpha`
