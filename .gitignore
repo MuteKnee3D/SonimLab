@@ -1,0 +1,23 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+
+# APKs and large binaries
+*.apk
+*.bin
+*.img
+*.mbn
+*.elf
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Signing keys
+*.jks
+*.keystore
