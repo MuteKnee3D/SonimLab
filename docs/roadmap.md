@@ -2,68 +2,6 @@
 
 > **Purpose:** Preserve near-term session notes, milestones, active research agenda items, and future ideas for SonimLab.
 
----
-
-First... I love seeing this. This is the first time SonimLab has looked like **a real application** instead of a collection of experiments.
-
-A few observations:
-
-- The hierarchy is already working.
-- The blue section headers read well.
-- The buttons have a nice "terminal on rugged hardware" feel.
-- The monochrome palette fits the XP3800 much better than Android's default look.
-
-There are a few visual tweaks I'd eventually make (slightly larger title, more breathing room above the first section, and perhaps a darker focused button state), but I'd rate this as a very solid **Milestone 1** home screen.
-
-
-
-
-## About the interactive checklist
-
-I think that's an excellent idea. I don't currently have a way to embed a true interactive checklist that persists inside the chat the way a project management tool would. If I put Markdown checkboxes in a message, they won't stay editable across turns.
-
-But we can get surprisingly close by treating our roadmap like an engineering log. For example:
-
-```javascript
-SonimLab Project
-
-[✓] Repository/workbench started
-[✓] XML-first workflow adopted
-[✓] D-pad-first philosophy
-[✓] Modular architecture
-[✓] SonimLab = project, not app
-[✓] XP3800 = reference implementation
-[ ] Home screen polish complete
-[ ] First button actions
-[ ] About page
-[ ] Launcher shell
-```
-
-Then, at the start of each session, we'll review it together and check things off. It's not clickable, but it serves the same purpose: we always know where we are.
-
-
-
-
-## I also have an idea that builds on this.
-
-Let's start maintaining three lists.
-
-### ✔ Decisions
-
-Things we've committed to.
-
-```javascript
-✓ SonimLab is the overall project.
-✓ Launcher is a module.
-✓ Toolbox is a module.
-✓ D-pad first.
-✓ XP3800 is the reference implementation.
-```
-
-These rarely change.
-
-
-
 
 ### 🚧 Milestones
 
